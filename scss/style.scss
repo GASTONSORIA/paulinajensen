@@ -9,7 +9,7 @@ body {
 }
 
 a#nav__a {
-    font-family: 'Rosario', sans-serif;;
+    font-family: 'Rosario', sans-serif;
     font-weight: 300;
     color: $white;
 }
@@ -42,6 +42,18 @@ a.nav-link {
 ul.nav.justify-content-center.body__ul.shadow.p-4.mb-4.bg-white.container-fluid {
     font-size: small;
 }
+//acerca de mi
+.main__img--size {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+h2 {
+    font-family: 'Rosario', sans-serif;
+}
+
+
+
 
 @media only screen and (max-width: 600px) {
     .nav-link--border {
